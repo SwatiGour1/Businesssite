@@ -465,7 +465,7 @@ height: 145px;
      }
 
      .bluecard {
-         margin-top: 300px;
+         margin-top: 250px;
      }
 
      .infromationcard2 p {
@@ -498,7 +498,7 @@ width: 400px;
     font-size:15px;
  }
  .timedatecard{
-    margin: 10px;
+    margin:0px;
  }
  }
  @media screen and (min-width:500px) and (max-width:600px) {
