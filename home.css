@@ -438,6 +438,61 @@ height: 145px;
     border-radius: 58%;
     height: 10px;
 }
+@media screen and (min-width:350px) and (max-width:412px){
+    .headdiv{
+        height: 100px;
+    }
+    .infromation-img {
+        width: 300px;
+        height: 300px;
+    }
+    .infromationcard1 {
+        width: 350px;
+        margin-left: 0px;
+    }
+    .infromationcard2 {
+        margin-left: 30px;
+        width: 300px;
+    }
+.bluecard {
+        margin-top: 300px;
+    }
+    .infromationcard2 p {
+        font-size: 10px;
+    }
+
+    .businessPara {
+        width: 350px;
+    }
+    .iii ,.iii2{
+        margin-left: 0px;
+        width: 350px;
+        height:350px;
+   }
+   .vc{
+       flex-direction: column;
+       /* flex-wrap: wrap; */
+   }
+   .seminarPara p{
+    width:300px;
+    margin-left:20px;
+}
+.seminargrp2 p{
+    width: 300px;
+}
+.seminar .bluecard1{
+    width: 320px;
+    }
+    .count p{
+        font-size:20px;
+       }
+       .count{
+        height: 260px;
+       }
+       .timedatecard{
+        margin:0px;
+     }
+}
  @media screen and (min-width:412px) and (max-width:500px) {
 
      .img1 {
@@ -498,7 +553,7 @@ width: 400px;
     font-size:15px;
  }
  .timedatecard{
-    margin:0px;
+    margin:10px;
  }
  }
  @media screen and (min-width:500px) and (max-width:600px) {
