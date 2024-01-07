@@ -1,0 +1,582 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .fullwidth {
+     background-color: black;
+     position: relative;
+ }
+
+ .head {
+     /* position: relative; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .img1 {
+     margin-left: 800px;
+     position: absolute;
+ }
+
+ .img2 {
+     /* margin-left:440px; */
+     margin-top: 0px;
+     /* position: absolute; */
+
+ }
+
+ .img11 {
+     width: 100px;
+     height: 100px;
+ }
+
+ .headdiv {
+     width: 445px;
+     height: 74px;
+     /* position: absolute; */
+     margin-top: 70px;
+     /* margin-left:490px; */
+     border-radius: 20px;
+     background-color: #FFFFFF1A;
+ }
+
+ .head h5 {
+     color: white;
+     font-weight: 600;
+     text-align: center;
+     font-family: poppins;
+     font-size: 26px;
+     line-height: 28.5px;
+     margin-top: 10px;
+ }
+
+ .sp1 {
+     color: #FFC621;
+     font-weight: 700;
+     text-align: center;
+     font-family: poppins;
+     font-size: 20px;
+     line-height: 25.5px;
+ }
+
+ .sp2 {
+     color: white;
+     font-weight: 400;
+ }
+
+ .para h1 {
+     font-weight: bold;
+     text-align: center;
+     color: white;
+     text-transform: capitalize;
+     padding: 5px;
+     /* margin-left: 100px; */
+     /* width: 1100px; */
+     line-height: 55px;
+     justify-content: center;
+     align-items: center;
+     /* margin-right: 40px; */
+ }
+
+ .boldp {
+     color: #FFC621;
+ }
+
+ .para p {
+     color: white;
+     text-align: center;
+     font-weight: 600;
+     font-size: 25px;
+     font-weight: bold;
+     margin-left: 0px;
+ }
+
+ .infromation {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: black;
+     flex-wrap: wrap;
+     flex-direction: row;
+     /* position: relative; */
+     margin-top: 45px;
+ }
+
+ .infromationcard1 {
+     background-color: #FFFFFF1A;
+     color: white;
+     border-radius: 20px;
+     text-align: center;
+     width: 580px;
+     height: auto;
+     padding-bottom: 20px;
+     /* height: 238px; */
+     margin-left: 10px;
+ }
+
+ .infromationcard1 h4 {
+     font-weight: 600;
+     font-size: 25px;
+     padding: 15px;
+     text-align: center;
+     text-transform: capitalize;
+ }
+
+ .infromationcard1 p {
+     font-size: 15px;
+     padding: 5px;
+     font-weight: 400;
+ }
+
+ .infromationcard1 b {
+     font-size: 20px;
+ }
+
+ .infromation1 {
+     color: white;
+     width: 550px;
+     margin-left: 20px;
+ }
+
+ .infromation1 h1 {
+     margin-bottom: 20px;
+     padding: 5px;
+     text-align: center;
+ }
+
+ .infromation1 p {
+     font-size: 20px;
+ }
+
+ .infromationcard2 {
+     width: 500px;
+     height: 100px;
+     border-radius: 20px;
+     background-color: #FFFFFF1A;
+     margin-left: 42px;
+ }
+
+ .infromationcard2 p {
+     font-size: 20px;
+ }
+
+ .bluecard {
+     background-color: #0067DE;
+     padding: 20px;
+     text-align: center;
+     border-radius: 20px;
+     font-weight: bold;
+     box-shadow: 0px 0px 19px 2px  #0067DE;
+     /* box-shadow: 0px 0px 0px 10px #0067DE; */
+ }
+
+ .infromation1 h1 {
+     margin-top: 25px;
+ }
+
+ .details {
+     border-radius: 20px;
+     background-color: #FFFFFF1A;
+     /* width: 570px; */
+     /* height: 500px; */
+     padding: 20px;
+     display: flex;
+     margin-top: 30px;
+     /* justify-content: space-evenly; */
+     /* align-items: center; */
+ }
+
+ .details i {
+     background-color: rgb(37, 171, 117);
+     border-radius: 50%;
+     padding: 5px;
+     margin-top: 30px;
+     margin-left: 5px;
+ }
+
+ .details p {
+     font-size: 20px;
+     font-weight: 400;
+     padding: 8px;
+ }
+
+ .dateinfo {
+     background-color: black;
+ }
+
+ .timebtn {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* margin: 5px; */
+ }
+
+ .timebtn1,
+ .timebtn2 {
+     background-color: #FFFFFF1A;
+     margin: 5px;
+     padding: 10px 20px;
+     border-radius: 20px;
+ }
+
+ .imggrp b {
+     background-color: #FFC621;
+     padding: 5px 10px;
+     border-top-right-radius: 15px;
+     border-top-left-radius: 15px;
+ }
+
+ .imggrp1 {
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     background-color: #FFFFFF1A;
+     border-radius: 20px;
+ }
+
+ .business {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+
+ .businessinfo {
+     background-color: #FFFFFF1A;
+     border-radius: 20px;
+     margin-top: 50px;
+ }
+
+ .businessside {
+     display: flex;
+     /* justify-content:center; */
+     /* align-items: center; */
+     margin-left: 40px;
+ }
+
+ .businessside .fa-check {
+     background-color: rgb(37, 171, 117);
+     border-radius: 50%;
+     color: white;
+     padding: 2px;
+     margin-top: 30px;
+     margin-left: 5px;
+ }
+
+ .businessPara {
+     width: 600px;
+     padding: 20px;
+ }
+
+ .businessside p {
+     font-size: 20px;
+     font-weight: 400;
+     /* padding: 8px; */
+ }
+
+ .bluecard1 {
+     background-color: #0067DE;
+     text-align: center;
+     border-radius: 20px;
+     padding: 20px;
+     margin-top: 30px;
+     font-weight: bold;
+     box-shadow: 0px 0px 19px 2px  #0067DE;
+
+ }
+
+ .greatsign {
+     background-color: white;
+     color: #0067DE;
+     padding: 12px 20px;
+     border-radius: 5px;
+     float: right;
+ }
+
+ .video-session {
+     background-color: black;
+ }
+
+ .vc {
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     flex-wrap: nowrap;
+     flex-direction: row;
+ }
+
+ .iii {
+     margin-left: 25px;
+     border-radius: 20px;
+}
+.iii2 {
+     border-radius: 20px;
+}
+.seminar{
+    background-color: #FFFFFF1A;
+    border-radius: 20px;
+    color: white;
+}
+.seminargrp{
+    display: flex;
+    justify-content:space-around;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+
+.sabminar .fa-check {
+    background-color: rgb(37, 171, 117);
+    border-radius: 50%;
+    color: white;
+    padding: 2px;
+}
+.seminarPara i{
+padding: 5px;
+margin: 5px;
+}
+.seminarPara p{
+    background-color: #FFFFFF1A;
+    font-size: 20px;
+    padding: 10px;
+width: 560px;
+border-radius: 20px;
+}
+.seminargrp2 i {
+    background-color:red;
+    border-radius: 50%;
+    color: white;
+    padding: 5px;
+    margin:5px ;
+    /* margin-top: 30px; */
+    /* margin-left: 5px; */
+}
+.seminargrp2 p{
+    font-size:20px;
+    /* margin: 5px; */
+    padding: 10px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: #FFFFFF1A;
+}
+.seminar .bluecard1{
+    width: 600px;
+}
+.learngrp{
+    display: flex;
+    justify-content:space-around;
+align-items: center;
+flex-wrap: wrap;
+margin: 10px;
+}
+.sblearngrp,.sblearngrp7{
+    background-color: #FFFFFF1A;
+    border-radius: 20px;
+width: 600px;
+color: white;
+margin: 10px;
+/* padding: 20px; */
+}
+ .count{
+display: flex;
+height: 145px;
+}
+.count b{
+    background-color: #FFC621;
+    padding: 6px;
+    display: inline-block;
+    width: 50px;
+    height: 50px; 
+    margin-top: 15px;
+    font-weight: bold;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: black;
+    font-size: 30px;
+}
+.count p{
+    padding: 15px;
+    font-size: 20px;
+}
+.timedate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.timedatecard{
+    background-color: #FFFFFF1A;
+    color: white;
+    padding: 5px 20px;
+    margin: 20px;
+    border-radius: 10px;
+    /* height: 90px; */
+    /* width: 50px; */
+}
+.timedatecard b{
+    font-size: 30px;
+    padding: 5px;
+    text-align: center;
+}
+.timedatecard p{
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.underline{
+    position: relative;
+}
+.underline::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    border-top: solid 6px #FFC621;
+    left: 0;
+    bottom: -10px;
+    border-radius: 58%;
+    height: 10px;
+}
+ @media screen and (min-width:412px) and (max-width:500px) {
+
+     .img1 {
+         margin-left: 310px !important;
+         margin-top: 0 !important;
+     }
+
+     .img2 {
+         margin-left: 0 !important;
+     }
+
+     .infromation-img {
+         width: 300px;
+         height: 300px;
+     }
+
+     .infromationcard1 {
+         width: 350px;
+         margin-left: 0px;
+     }
+
+     .infromationcard2 {
+         margin-left: 30px;
+         width: 300px;
+     }
+
+     .bluecard {
+         margin-top: 300px;
+     }
+
+     .infromationcard2 p {
+         font-size: 10px;
+     }
+
+     .businessPara {
+         width: 350px;
+     }
+     .iii ,.iii2{
+     margin-left: 0px;
+     width: 350px;
+     height:350px;
+}
+.vc{
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+.seminarPara p{
+    width:390px;
+    margin-left:20px;
+}
+.seminargrp2 p{
+    width: 350px;
+}
+.seminar .bluecard1{
+width: 400px;
+}
+.count p{
+    font-size:15px;
+ }
+ .timedatecard{
+    margin: 10px;
+ }
+ }
+ @media screen and (min-width:500px) and (max-width:600px) {
+
+     .img1 {
+         margin-left: 380px !important;
+     }
+
+     .img2 {
+         margin-left: 0 !important;
+     }
+
+     .infromation-img {
+         width: 400px;
+         height: 400px;
+     }
+
+     .infromationcard1 {
+         width: 420px;
+         margin-left: 0px;
+     }
+
+     .infromationcard2 {
+         margin-left: 30px;
+         width: 370px;
+     }
+
+     .bluecard {
+         margin-top: 300px;
+         margin-right: 5px;
+     }
+
+     .infromationcard2 p {
+         font-size: 10px;
+     }
+
+     .businessPara {
+         width: 350px;
+     }
+     .iii ,.iii2{
+        margin-left: 0px;
+        width: 350px;
+        height:350px;
+   }
+   .vc{
+       flex-direction: column;
+       /* flex-wrap: wrap; */
+   }
+   .seminar .bluecard1{
+    width: 400px;
+    }
+    .seminarPara p{
+        width:450px;
+    }
+    .count p{
+        font-size:15px;
+     }
+ }
+
+ @media screen and (min-width:600px) and (max-width:700px) {
+
+     .img1 {
+         margin-left: 410px !important;
+     }
+
+     .img2 {
+         margin-left: 60px !important;
+     }
+
+     .businessPara {
+         width: 450px;
+     }
+     .vc{
+        flex-direction: column;
+     }
+     .iii ,.iii2{
+        margin-left: 0px;
+        width: 450px;
+        height:450px;
+   }
+ }
