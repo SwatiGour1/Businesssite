@@ -438,7 +438,7 @@ height: 145px;
     border-radius: 58%;
     height: 10px;
 }
-@media screen and (min-width:350px) and (max-width:412px){
+@media screen and (min-width:256px) and (max-width:468px){
     .headdiv{
         height: 100px;
     }
@@ -447,27 +447,33 @@ height: 145px;
         height: 300px;
     }
     .infromationcard1 {
-        width: 350px;
+        width: 300px;
         margin-left: 0px;
     }
     .infromationcard2 {
-        margin-left: 30px;
-        width: 300px;
+        margin-left: 20px;
+        width: 250px;
+        height: 120px;
     }
 .bluecard {
-        margin-top: 300px;
+        margin-top: 320px;
+    }
+    .greatsign{
+        display: none;
     }
     .infromationcard2 p {
         font-size: 10px;
     }
-
+.businessside{
+    margin-left: 0;
+}
     .businessPara {
-        width: 350px;
+        width: 300px;
     }
     .iii ,.iii2{
         margin-left: 0px;
-        width: 350px;
-        height:350px;
+        width: 300px;
+        height:300px;
    }
    .vc{
        flex-direction: column;
@@ -481,19 +487,21 @@ height: 145px;
     width: 300px;
 }
 .seminar .bluecard1{
-    width: 320px;
+    width: 300px;
     }
     .count p{
         font-size:20px;
        }
        .count{
-        height: 260px;
+        height: 310px;
        }
        .timedatecard{
-        margin:0px;
+        margin:2px;
+    padding: 5px;
+
      }
 }
- @media screen and (min-width:412px) and (max-width:500px) {
+  @media screen and (min-width:469px) and (max-width:768px) {
 
      .img1 {
          margin-left: 310px !important;
@@ -520,9 +528,14 @@ height: 145px;
      }
 
      .bluecard {
-         margin-top: 250px;
+         margin-top: 300px;
      }
-
+.businessPara .bluecard1{
+    padding: 15px 10px ;
+}
+.businessPara .greatsign{
+    padding: 7px;
+}
      .infromationcard2 p {
          font-size: 10px;
      }
@@ -537,7 +550,6 @@ height: 145px;
 }
 .vc{
     flex-direction: column;
-    /* flex-wrap: wrap; */
 }
 .seminarPara p{
     width:390px;
@@ -556,7 +568,7 @@ width: 400px;
     margin:10px;
  }
  }
- @media screen and (min-width:500px) and (max-width:600px) {
+ @media screen and (min-width:769px) and (max-width:990px) {
 
      .img1 {
          margin-left: 380px !important;
@@ -600,7 +612,7 @@ width: 400px;
    }
    .vc{
        flex-direction: column;
-       /* flex-wrap: wrap; */
+       
    }
    .seminar .bluecard1{
     width: 400px;
@@ -611,8 +623,14 @@ width: 400px;
     .count p{
         font-size:15px;
      }
+     .businessPara .bluecard1{
+        padding: 19px 9px;
+     }
+     .businessPara .greatsign{
+        padding: 6px;
+     }
  }
-
+/* 
  @media screen and (min-width:600px) and (max-width:700px) {
 
      .img1 {
@@ -634,4 +652,4 @@ width: 400px;
         width: 450px;
         height:450px;
    }
- }
+ }  */
